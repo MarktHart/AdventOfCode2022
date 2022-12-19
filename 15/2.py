@@ -1,0 +1,1 @@
+import re;a=[(x,y,abs(x-j)+abs(y-k)+1)for x,y,j,k in[map(int,re.findall("=(.\d*)",l))for l in open("i")]];(_,q,w),(_,e,r)=sorted((y>k,(e*x+d*j)/z,(e*y+d*k)/z)for(x,y,d)in a for(j,k,e)in a if x-j+abs(y-k)==(z:=e+d)and x>j);print(int(2000000.5*(e+r-w+q)+w-q))

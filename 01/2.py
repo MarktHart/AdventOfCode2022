@@ -1,1 +1,1 @@
-print(sum(sorted(eval("[%s]"%"+".join(open("i")).replace("+\n",",")))[-3:]))
+print(sum(sorted(eval('[%s]'%'+'.join(open('i')).replace('+\n',',')))[-3:]))
